@@ -96,7 +96,7 @@ function Main_Map() : JSX.Element {
     })
 
     let query={
-        key:"AIzaSyAXi_MF8QM6g32ctG529AXZjJNazawyDnY",
+        key:"AIzaSyAusISpVQe-Yds19WbvYdwQ_jVAaZbKc3w",
         language:"ko",
         components: "country:kr"
     }

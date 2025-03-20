@@ -139,7 +139,7 @@ function Main_List() : JSX.Element {
                 <View style={[{width:wp(80)}]}>
                     <Text style={styles.textform}>{row.item.start_addr}</Text>
                     <Text style={[styles.textform,{borderTopWidth:0}]}>{row.item.end_addr}</Text>
-                    <Text style={styles.textform}>{row.item.formatted_time}</Text>
+                    <Text style={styles.textform}>{row.item.request_time}</Text>
                     </View>
                 <View style={{width:wp(20),alignItems:'center', justifyContent:'center'}}>
                     {row.item.call_state=="RES" ? 
